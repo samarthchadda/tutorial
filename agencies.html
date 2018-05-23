@@ -1,0 +1,302 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+
+
+/* Dropdown Button */
+
+
+#h01{
+  text-align: right;
+  font-size: 60px;
+  padding: 5px;
+font-family: arial black;
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #8FBC8F;
+    clear: left;
+    text-align: center;
+}
+
+
+
+
+/*login*/
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: transparent;
+    color: white;
+    padding: 0px 0px;
+    margin: 8px 30px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+#button01
+{
+  background-color: #4CAF50;
+    color: white;
+    padding: 16px 10px;
+    margin: 8px 30px;
+    border: none;
+    cursor: pointer;
+    width: 50%; 
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 30px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 0px;
+}
+x
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/*login*/
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #228B22;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #90EE90;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body >
+
+<div class="container">
+
+<header>
+   
+   <img src="logo-og.png" width="300" height="150" align="left">
+<h1 id="h01">LABOURPOWER </h1>
+</header>
+<ul>
+  <li><a href="hackethon.html">HOME</a></li>
+
+<!--prateek-->
+ 
+
+  <li><pre>       </pre></li>
+  <li ><a href="services.html">SERVICES</a></li>
+  <li><pre>       </pre></li>
+  <li><a href="agencies.html">PLACEMENT AGENCIES</a></li>
+  <li><pre>       </pre></li>
+  <li><a href="contractors.html">HIGHWAY CONTRACTORS</a></li>
+  <li><pre>       </pre></li>
+  
+</ul>
+  
+<nav>
+  <ul>
+    <li><a href="contact.html" target="_self"><pre style="font-size: 20px"> CONTACT US</pre></a></li><br>
+    <li><a href="faq.html"><pre style="font-size: 20px">   FAQs    </pre></a></li><br>
+    <li><a href="#"><pre style="font-size: 20px"> FEEDBACK    </pre></a></li>
+  </ul>
+</nav>
+<article>
+  <br><br>
+  <br>  
+  <a href="register.html" target="_blank">
+  <img src="ShowImage.jpg" width="400" height="200">
+</a>
+  <img src="space.png" width="160">
+<!--login-->  
+ <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><img src="download (2).jpg" width="400" height="250"></button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="welcome.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images (1).jpg" alt="Avatar" class="avatar" >
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pwd" required>
+        
+      <input id="button01" type="submit" name="submit">Login
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<script type="text/php" src="action_page.php"></script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<!--login-->
+  <br><br>
+  <br>  
+  <br>
+</article>
+<footer>co-powered by JECRC HACKETHON</footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+	background-color: pink;
+
+}
+h1
+{
+	color: red;
+	font-size: 50px;
+}
+h6
+{
+	font-size: 80px;
+}
+p
+{
+	font-size: 40px;
+     font-family: arial black;
+	border: 10px solid green;
+    padding: 20px;
+    margin: 40px;
+}
+#p01
+{
+	color: darkblue;
+}
+p.error{
+	color: red;
+}
